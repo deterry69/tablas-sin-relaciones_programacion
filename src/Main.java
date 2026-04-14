@@ -9,7 +9,7 @@ public class Main {
         Cliente obj = new Cliente("Rafa", "rafa@mail.com", "999", 40, 600.0, 10);
 
         dao.insertarCliente(obj);
-        obj.setNombre("Examen MODIFICADO");
+        obj.setNombre("Nombre MODIFICADO");
         dao.actualizarCliente(obj, 11);
         dao.eliminarCliente(11);
 
