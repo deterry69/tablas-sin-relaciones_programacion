@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         ClienteDAO dao = new ClienteDAO();
 
-        System.out.println("========== a, b, c. PRUEBAS CRUD ==========");
+        System.out.println("a, b, c. PRUEBAS CRUD");
         Cliente obj = new Cliente("Examen Test", "test@mail.com", "999", 40, 600.0, 10);
 
         dao.insertarCliente(obj);
