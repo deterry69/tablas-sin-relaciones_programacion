@@ -6,7 +6,7 @@ public class Main {
         ClienteDAO dao = new ClienteDAO();
 
         System.out.println("a, b, c. PRUEBAS CRUD");
-        Cliente obj = new Cliente("Examen Test", "test@mail.com", "999", 40, 600.0, 10);
+        Cliente obj = new Cliente("Rafa", "rafa@mail.com", "999", 40, 600.0, 10);
 
         dao.insertarCliente(obj);
         obj.setNombre("Examen MODIFICADO");
